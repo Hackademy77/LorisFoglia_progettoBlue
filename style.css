@@ -1,0 +1,174 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --varmycolor: #1566C0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Righteous', cursive;
+}
+
+/* .row>*{
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+.myBorder{
+    border-bottom: 3px solid #dfa929;
+}
+
+.mySection{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* header */
+header{
+    background: url(media/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header h1,
+header p{
+    color:white;
+}
+
+.img-wave1{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.img-wave2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+button{
+    background-color: #dfa929;
+    padding: 5px 30px;
+    color: black;
+    font-size: 13px;
+    border: none;
+}
+
+main h2, main h3, main h4{
+    color: var(--varmycolor);
+}
+
+main p{
+    color: black;
+}
+
+.myCard1,
+.myCard2,
+.myCard3,
+.myCard4 {
+    min-height: 380px;
+    width: 100%;
+    color: white;
+}
+
+.myCard1{
+    background: linear-gradient(rgb(3, 4, 5),rgba(100, 114, 138, 0.454),rgba(20, 25, 33, 0.975)),url(media/1.png);
+    background-size: cover;
+}
+
+.myCard2{
+    background: linear-gradient(rgb(3, 4, 5),rgba(100, 114, 138, 0.454),rgba(20, 25, 33, 0.975)),url(media/2.png);
+    background-size: cover;
+}
+
+.myCard3{
+    background: linear-gradient(rgb(3, 4, 5),rgba(100, 114, 138, 0.454),rgba(20, 25, 33, 0.975)),url(media/3.png);
+    background-size: cover;
+}
+
+.myCard4{
+    background: linear-gradient(rgb(3, 4, 5),rgba(100, 114, 138, 0.454),rgba(20, 25, 33, 0.975)),url(media/4.png);
+    background-size: cover;
+}
+
+.border-shadow{
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.myDivIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+#section3 i{
+    color: var(--varmycolor);
+}
+
+#section3 h3{
+    color:black;
+}
+
+.mySection2{
+    margin-top: 60px;
+}
+
+.mySection2 img{
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid var(--varmycolor);
+    border-radius: 50%;
+}
+
+
+.myLineR{
+    position: relative;
+    border-right: 2px solid var(--varmycolor);
+}
+
+.myLineR::before{
+    position: absolute;
+    right: -9px;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--varmycolor);
+    border-radius: 50%;
+    background-color: white;
+}
+
+.button2{
+    background-color: var(--varmycolor);
+    padding: 5px 30px;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+footer{
+    background: linear-gradient(rgb(253, 251, 251),rgba(62, 76, 100, 0.454),rgba(27, 34, 46, 0.932)),url(media/footer.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer h3{
+    color:#dfa929;
+}
+
+footer p,
+footer i{
+    color: white;
+}
